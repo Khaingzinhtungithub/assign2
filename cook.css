@@ -1,0 +1,75 @@
+.body{
+    display: flex;
+    margin: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-top: 20px;
+    width: 63%;
+    border-bottom-style:inset;
+    height: 30px;
+    
+}
+.cook{
+   
+    text-transform: uppercase;
+    border-bottom-style:inset;
+    border-bottom-color: gray;
+    color: skyblue;
+    height: 30px;
+    width: 15%;
+    
+}
+
+.food{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(165, 171, 172);
+    box-shadow: 3px 3px rgb(165, 171, 172);
+    border-radius: 8px;
+    position: relative;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px 8px 0px 0px;
+}
+h1{
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
+}
+span{
+    
+    font-size: 18px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(11, 11, 140);
+    color: #ffffff;
+    top: 8px;
+    right: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgb(174, 222, 242);
+}
